@@ -1,6 +1,6 @@
 # B.A.R.K.E.R. (Basic Automated Ride Kontrol & Earnings Registry)
 
-Welcome to **B.A.R.K.E.R.**, a robust Tricycle Dispatch System designed for efficient queue management and earnings tracking. This version is built in C++ and optimized for console-based operations.
+B.A.R.K.E.R. is a C++ tricycle dispatch and earnings registry system that efficiently manages driver queues and trip records. It utilizes a `std::map<string, Driver>` to store and quickly look up driver profiles by their unique body numbers. The dispatch queue is implemented using a `std::vector<QueueItem>`, which maintains the order of waiting and dispatched drivers. This project demonstrates the practical application of efficient data mapping and linear collections in a real-world utility system.
 
 ## 🚀 Features
 - **Driver Management**: Register, search, and manage driver profiles.
