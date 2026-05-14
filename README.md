@@ -1,6 +1,6 @@
 # B.A.R.K.E.R. (Basic Automated Ride Kontrol & Earnings Registry)
 
-B.A.R.K.E.R. is a console-based management system designed to automate tricycle dispatching and earnings tracking for transport cooperatives. It uses a `std::map` data structure to link unique body numbers to driver profiles, allowing for instant data retrieval and registration. The system also manages a dispatch queue using a `std::vector` to ensure a fair "first-in, first-out" order for waiting drivers. This implementation focuses on data persistence and efficient search algorithms to provide a reliable tool for real-world tricycle terminal operations.
+B.A.R.K.E.R. is a console-based management system designed to automate tricycle dispatching and earnings tracking for transport cooperatives. The system uses a **Map** data structure to store driver profiles, allowing for instant searching and registration via unique body numbers. A **Queue** is used to manage the order of tricycle dispatches, ensuring a fair "first-in, first-out" system for all drivers. This project demonstrates how fundamental data structures can be combined to create a reliable and organized tool for real-world terminal operations.
 
 ## 🚀 Features
 - **Driver Management**: Register, search, and manage driver profiles.
